@@ -1,0 +1,14 @@
+version: '3'
+
+networks:
+  origami:
+    external: false
+
+services:
+  webclient:
+    image: ucgsoft/origami:client-1.0
+    container_name: origami_client
+    ports:
+      - 8080:8080
+    networks:
+      - origami
