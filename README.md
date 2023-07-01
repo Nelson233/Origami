@@ -14,7 +14,7 @@ Docker is the world's easiest way to create, manage, and deliver applications.
 
 Then, download this repository to your local directory, for example, /path/to/save.
 
-## Starup
+## Startup
 
 After downloading, open a terminal (command in Windows) window and typing these commands:
 
